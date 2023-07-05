@@ -80,8 +80,8 @@ output
 
 
 ## Acknowledgments
-[FFmpeg] (https://github.com/FFmpeg/FFmpeg)<br>
+[FFmpeg](https://github.com/FFmpeg/FFmpeg)<br>
 [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose)<br>
-[Detectron2] (https://github.com/facebookresearch/detectron2)<br>
-[YOLOx] (https://github.com/Megvii-BaseDetection/YOLOX)<br>
-[DMMR] (https://github.com/boycehbz/DMMR)<br>
+[Detectron2](https://github.com/facebookresearch/detectron2)<br>
+[YOLOx](https://github.com/Megvii-BaseDetection/YOLOX)<br>
+[DMMR](https://github.com/boycehbz/DMMR)<br>
