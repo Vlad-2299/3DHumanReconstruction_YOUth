@@ -66,6 +66,8 @@ DMMR/viz_cameras.py
 ```
 Execute <i>viz_cameras.py</i> for a sequential mesh visualization. This scrip requiers the 'output' file to be present in the DMMR folder
 
+![figure](/assets/rec_merge.png)
+
 
 ```bash
 DMMR/output
@@ -77,6 +79,9 @@ output
 	  |--meshes: mesh objects of each individual in each frame
 	  |--reprojection: 2D and 3D keyppint information per each frame
 	  |--results: plk files with fitting information of each frame
+
+
+
 
 
 ## Acknowledgments
