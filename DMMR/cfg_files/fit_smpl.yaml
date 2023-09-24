@@ -1,0 +1,70 @@
+body_pose_prior_weights:
+- 4.04e3
+- 1.78e0
+- 1.78e0
+- 1.78e0
+body_prior_type: l2
+coll_loss_weights:
+- 0.0
+- 0.0
+- 1000.0
+- 4500.0
+data_folder: data/YOUth
+data_weights:
+- 0.5
+- 0.5
+- 0.5
+- 0.5
+dataset: offline
+fix_scale: true
+fix_shape: false
+float_dtype: float32
+frames: 1046
+ftol: 1e-9
+gender: neutral
+gtol: 1e-9
+interactive: true
+interpenetration: false
+is_seq: true
+kinetic_weights:
+- 1.0e3
+- 5.0e2
+- 2.5e2
+- 2.0e2
+lr: 1.0
+maxiters: 30
+model_folder: models
+model_type: smplhalpe
+num_people: 2
+opt_cam: false
+optim_type: lbfgsls
+output_folder: output
+prior_folder: priors
+result_folder: results
+rho: 100
+save_images: true
+save_meshes: true
+scale: 1.0
+scale_child: 0.4545
+shape:
+- 0.101861
+- 0.848967
+- 0.848852
+- 2.45122
+- 0.381627
+- 0.387047
+- -0.350682
+- -0.195289
+- 0.307732
+- -0.305779
+shape_weights:
+- 1.0e2
+- 5.0e1
+- 1.0e1
+- 0.5e1
+use_cuda: true
+use_hip: true
+use_joints_conf: true
+use_motionprior: true
+use_vposer: true
+visualize: false

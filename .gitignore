@@ -1,0 +1,26 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+ProcessJSON/data/
+AlphaPose/data/
+AlphaPose/detector/tracker/data/
+AlphaPose/detector/yolo/data/
+AlphaPose/detector/yolox/data/
+AlphaPose/pretrained_models/
+Detectron2/output/
+Detectron2/model_semantic/
+Videos/data/
+DMMR/output/
+DMMR/render/
+DMMR/data/
+DMMR/saved_outputs/
+Detectron2/data/
+
+
+AlphaPose/cython_bbox/
