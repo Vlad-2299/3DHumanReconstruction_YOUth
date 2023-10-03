@@ -59,10 +59,10 @@ Execute <i>viz_cameras.py</i> for a sequential mesh visualization. This scrip re
 ```DMMR/output```
 output data generated from the execution of the <i>main.py</i> file. <br>
 
-output\\
-	  |--images: empty file\\
-	  |--meshes: mesh objects of each individual in each frame\\
-	  |--reprojection: 2D and 3D keyppint information per each frame\\
+output<br>
+	  |--images: empty file<br>
+	  |--meshes: mesh objects of each individual in each frame<br>
+	  |--reprojection: 2D and 3D keyppint information per each frame<br>
 	  |--results: plk files with fitting information of each frame
 
 
