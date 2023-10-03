@@ -4,64 +4,66 @@ Thesis research framework developed by Vladyskav Kalyuzhnyy, Utrecht Univercity
 ## Dependencies
 Windows or Linux, Python3.9
 
-```pip install -r requirements.txt```
+```bash
+pip install -r requirements.txt
+```
 
 
 ## Deployment
 ![figure](/assets/model_overview.png)
 
 **General System Control:**<br>
-```bash
+```
 general.ipynb
 ```
 Main notebook that executes all framework stages <br>
 
 **AlphaPose:**<br>
 <i>viz_alphapose_output</i>:general.ipynb debugger variable that saves the visualization AlphaPose output in 'ProcessJSON/data/video_n/Camera_n/viz'
-```bash
+```
 AlphaPose/scripts/demo_inference.py
 ```
 AlphaPose variable controller and 2D joint regression, yolox and Torchreid model deployment
-```bash
+```
 AlphaPose/alphapose/utils/writer.py
 ```
 <i>update</i> method stores a dummy detection instance for frames in which no detections were captured<br>
 
-```bash
+```
 AlphaPose/alphapose/utils/pPose_nms.py
 ```
 <i>write_json</i> method writes all the AlphaPose output to a JSON file<br>
 
 **Detectron2:**<br>
-```bash
+```
 Detectron2/process_detectron.py
 ```
 Python file which contains all the methods required to execute and process the data from Detectron2<br>
 
-```bash
+```
 Detectron2/Detectron2.ipynb
 ```
 Stand-alone execution of Detectron2, used for debugging
 
 
 **DMMR:**<br>
-```bash
+```
 DMMR/cfg_files
 ```
 Stores the yaml configuration file which contains all the stored parameters for the stage of camera calibration and 3D human reconstruction<br>
 
-```bash
+```
 DMMR/data/YOUth
 ```
 <i>YOUth</i> is a replacement data folder. It should be always present in the data folder. <i>general.ipynb</i> will update this folder with the current video's data<br>
 
-```bash
+```
 DMMR/main.py
 ```
 Execute <i>main.py</i> for camera calibration and 3d human reconstruction<br>
 
 
-```bash
+```
 DMMR/viz_cameras.py
 ```
 Execute <i>viz_cameras.py</i> for a sequential mesh visualization. This scrip requiers the 'output' file to be present in the DMMR folder
@@ -69,7 +71,7 @@ Execute <i>viz_cameras.py</i> for a sequential mesh visualization. This scrip re
 ![figure](/assets/rec_merge.png)
 
 
-```bash
+```
 DMMR/output
 ```
 output data generated from the execution of the <i>main.py</i> file. <br>
