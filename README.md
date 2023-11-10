@@ -1,5 +1,5 @@
 # 3D Human Reconstruction on the Multi-view, In-the-wild, YOUth data
-Thesis research framework developed by Vladyskav Kalyuzhnyy, Utrecht Univercity
+Thesis research framework developed by Vladyskav Kalyuzhnyy, Utrecht University
 
 ## Dependencies
 Windows or Linux, Python3.9
